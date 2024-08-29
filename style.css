@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: montserrat;
+    scroll-behavior: smooth;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    color: #301913;
+    font-size: 60px;
+    font-family: alfa slab one;
+}
+
+.section-header p{
+    color: #262626;
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.navbar-brand span{
+    color: red;
+    font-size: 25px;
+}
+
+.navbar-link{
+    font-weight: bold;
+}
+
+.navbar-scrolled {
+    background-color: #fff !important;
+}
+
+/* HEADER */
+
+header{
+    background-image: url(/images/home-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-content{
+    padding: 41% 0;
+}
+
+.text-content h2 {
+    font-family: alfa slab one;
+    font-size: 100px;
+    margin: 0;
+}
+
+.text-content h4{
+    font-family: king;
+    font-size: 35px;
+    margin: 0;
+}
+
+
+/* ABOUT */
+
+.about-content img{
+    width: 100%;
+}
+
+.about-content h2{
+    font-size: 35px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+
+/* AREA 1 */
+
+.area-1{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(images/area-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* MENU */
+
+.img-area img{
+    width: 100%;
+}
+
+
+/* AREA 2 */
+
+.area-2{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(images/area-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(images/footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer h2{
+    font-weight: 900;
+}
+
+footer h2 span{
+    color: red;
+    font-size: 45px;
+}
+
+.socials{
+    margin-top: 52px;
+}
+
+.socials i{
+    font-size: 20px;
+    margin: 0 25px;
+}
+
+@media (max-width: 991px){
+    .text-content{
+        padding: 40% 0;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    .text-content h4{
+        font-size: 18px;
+    }
+    .text-content h2{
+        font-size: 40px;
+    }
+    .text-content{
+        padding: 70% 0;
+    }
+    .section-header h2{
+        font-size: 30px;
+    }
+    .about-content h2{
+        font-size: 18px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
